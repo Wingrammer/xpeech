@@ -7,22 +7,22 @@ function Header() {
       <div className="flex items-center space-x-2">
         <Link href="/">
           <Image
-            className="rounded-full"
-            width={50}
+            // className="rounded-full"
+            width={200}
             height={50}
-            src="https://links.papareact.com/1m8"
+            src="/logo.png"
             alt="Logo"
           />
         </Link>
-        <h1>GLad2Help Blog</h1>
+        <h1></h1>
       </div>
       <div>
-        <Link
-          href="/"
-          className="px-5 py-3 text-sm md:text-base bg-gray-900 text-[#f7ab0a] flex items-center rounded-full text-center "
-        >
-          Sign Up to the GLad2Help University
-        </Link>
+      <Link
+      href="/"
+      className="px-5 py-3 text-sm md:text-base bg-gray-100 text-[#BF2121] flex items-center rounded-full
+      text-center">
+          Login
+      </Link>
       </div>
     </header>
   );
